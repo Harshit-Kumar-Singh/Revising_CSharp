@@ -12,3 +12,4 @@
 /Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/CSharp_Learning.pdb
 /Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/CSharp_Learning.genruntimeconfig.cache
 /Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/ref/CSharp_Learning.dll
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/CSharp_Learning.sourcelink.json

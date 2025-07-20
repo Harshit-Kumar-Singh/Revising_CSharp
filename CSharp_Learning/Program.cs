@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Buffers;
 using System.Globalization;
+using System.Reflection.Metadata.Ecma335;
+using System.Runtime.InteropServices;
 using System.Runtime.Intrinsics.Arm;
+using System.Security.Cryptography.X509Certificates;
 namespace CSharp_Learning
 {
     public class Program
@@ -85,19 +89,64 @@ namespace CSharp_Learning
             // string name = @"Hello ""SOMETHING""";    
             // System.Console.WriteLine(name);
 
-            char[] ch = new char[] { 'H', 'e' };
+            // char[] ch = new char[] { 'H', 'e' };
 
-            object obj = new string(ch);
-            System.Console.WriteLine(ch);
-            string check = "He";
-            if (check.Equals(obj)) System.Console.WriteLine("Same");
-            else System.Console.WriteLine("Diff");
+            // object obj = new string(ch);
+            // System.Console.WriteLine(ch);
+            // string check = "He";
+            // if (check.Equals(obj)) System.Console.WriteLine("Same");
+            // else System.Console.WriteLine("Diff");
 
-            if (check == obj) System.Console.WriteLine("Same");
-            else System.Console.WriteLine("Diff");
-            
-             
-            
+            // if (check == obj) System.Console.WriteLine("Same"); // check value and memory location/reference
+            // else System.Console.WriteLine("Diff");
+
+
+            /* array */
+
+            // int[] arr = new int[3];
+            // for (int i = 0; i < 3; i++)
+            // {
+            //     Convert.Int32(numberstring);
+            //     string numberstring = Console.ReadLine();
+            //     bool success = int.TryParse(numberstring, out int num);
+            //     if (success)
+            //         arr[i] = num;
+            //     else
+            //     {
+            //         Console.WriteLine("Invalid number entered. Try again.");
+            //         i--; // so the loop repeats this index
+            //     }
+
+
+            // }
+            // for (int i = 0; i < 3; i++)
+            // {
+            //     Console.WriteLine(arr[i]);
+            // }
+
+            // Array.sort() will sort it in place in same array in string it generarly returns.
+
+            // int[] arr = new int[] {
+            //     1,2,3,4
+            // };
+            // Array.Clear(arr, 1, 3);
+            // foreach (var item in arr)
+            // {
+            //     Console.Write($"{item} ");
+            // }
+
+            int[] numbersArray = new int[]{
+                90,190,90
+            };
+            int search = 90;
+            int index = Array.FindIndex(numbersArray, (Predicate<int>)(x => x == 90));
+            Console.WriteLine(Array.IndexOf(numbersArray, search, 1, 2));
+            System.Console.WriteLine(index);
+
+
+
+
+
         }
     }
 }
