@@ -1,0 +1,14 @@
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/bin/Debug/net8.0/CSharp_Learning
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/bin/Debug/net8.0/CSharp_Learning.deps.json
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/bin/Debug/net8.0/CSharp_Learning.runtimeconfig.json
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/bin/Debug/net8.0/CSharp_Learning.dll
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/bin/Debug/net8.0/CSharp_Learning.pdb
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/CSharp_Learning.GeneratedMSBuildEditorConfig.editorconfig
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/CSharp_Learning.AssemblyInfoInputs.cache
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/CSharp_Learning.AssemblyInfo.cs
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/CSharp_Learning.csproj.CoreCompileInputs.cache
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/CSharp_Learning.dll
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/refint/CSharp_Learning.dll
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/CSharp_Learning.pdb
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/CSharp_Learning.genruntimeconfig.cache
+/Users/genos/Documents/Projects/CSharp_Learning/CSharp_Learning/obj/Debug/net8.0/ref/CSharp_Learning.dll
